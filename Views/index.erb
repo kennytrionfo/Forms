@@ -1,0 +1,63 @@
+<form  action="/about" method="post">
+  <p>
+    <label>Name:</label>
+    <input type="text" value="" name="name" />
+  </p>
+
+  <p>
+    <label>Age:</label>
+    <input type="text" value="" name="age" />
+  </p>
+
+  <p>
+    <label>Who referred you?:</label>
+    <input type="text" value="" name="referral" />
+  </p>
+
+  <p>
+    <label>Programming Language</label>
+    <select name="language">
+      <option value="Ruby">Ruby</option>
+      <option value="JS">JS</option>
+      <option value="Whitespace">  </option>
+      <option value="Brainwhat">>><</option>
+    </select>
+  </p>
+
+  <p>
+    <label>Experience</label>
+    <select name="experience">
+      <option value="Beginner">Beginner</option>
+      <option value="Blade Runner">Blade Runner</option>
+    </select>
+  </p>
+
+  <p>
+    <input type="checkbox" name="creditcard" value="creditcard" /> I will pay with Credit Card<br />
+    <input type="checkbox" name="check" value="check" /> I will pay with a check
+  </p>
+
+  <p>
+    <input type="radio" name="gender" value="male"> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+  </p>
+
+  <p>
+      Password: <input type="password" name="pwd" maxlength="8"><br>
+  </p>
+
+  <p>
+    <label>Bio:</label><br />
+    <textarea  name = "bio" rows="8" cols="40"></textarea>
+  </p>
+
+  <p>
+    <label>Notes:</label><br />
+    <textarea  name = "notes" rows="4" cols="40"></textarea>
+  </p>
+
+  <p>
+    <input type="submit" value="Send Data" />
+  </p>
+
+</form>
